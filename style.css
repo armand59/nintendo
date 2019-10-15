@@ -11,31 +11,19 @@
 ul li
 {
     display: inline-block;
-    margin-left: 170px;
-    width: 45px;
+    font-size: 18px;
+    width: 180px;
     text-align: center;
     margin-top: 10px;
-    font-size: 20px;
-
+    float: left;
 }
 
-
-
-
-
-
-
-
-#bloctxt
+#blocmenu
 {
-    margin-left: 100px;
-
+    margin-left: 250px;
 }
 
-#jeux
-{
-    margin-left: 50px;
-}
+
 
 #cadre {
     height: 150px;
@@ -57,10 +45,9 @@ ul li
 
 
 
-#inside
-{
+#inside {
     background-color: #E60012;
-    height:35px;
+    height: 35px;
     width: 150px;
     border: 5px solid white;
     margin-top: 72px;
@@ -69,14 +56,70 @@ ul li
     text-align: center;
     font-size: 30px;
     color: white;
+}
+
+
+#inscription
+{
+    background-color: #E60012;
+    height: 45px;
+    width: 220px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: -87px;
 
 }
 
-#Nintendoswitch:hover
-
+#inscription:hover
 {
     background-color: red;
 }
+
+#connexion
+{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+#Nintendoswitch:hover
+{
+background-color: white
+}
+
+#nintendo3ds:hover
+{
+    background-color: #E60012;
+}
+
+#Game_Store:hover
+{
+    background-color: darkorange;
+}
+
+#amiibo:hover
+{
+    background-color: white;
+}
+
+#Play_Nintendo:hover
+{
+    background-color: dodgerblue;
+}
+
+#support:hover
+{
+    background-color: white;
+}
+
+#mynintendo:hover
+{
+    background-color: white;
+}
+
 
 
 
